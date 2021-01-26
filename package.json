@@ -1,0 +1,25 @@
+{
+    "name": "@pierreminiggio/puppeteer-text-typer",
+    "version": "1.0.0",
+    "description": "Puppeteer Text Typer",
+    "main": "main.js",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pierreminiggio/puppeteer-text-typer.git"
+    },
+    "author": "Pierre MINIGGIO",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pierreminiggio/puppeteer-text-typer/issues"
+    },
+    "homepage": "https://github.com/pierreminiggio/puppeteer-text-typer#readme",
+    "dependencies": {
+        "@pierreminiggio/timeout": "github:pierreminiggio/timeout",
+        "node": "^12.6.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
