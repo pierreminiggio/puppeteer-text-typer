@@ -1,3 +1,4 @@
+import asyncForEach from '@pierreminiggio/async-foreach'
 import sleep from '@pierreminiggio/timeout'
 
 /**
