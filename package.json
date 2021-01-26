@@ -15,6 +15,7 @@
     },
     "homepage": "https://github.com/pierreminiggio/puppeteer-text-typer#readme",
     "dependencies": {
+        "@pierreminiggio/async-foreach": "github:pierreminiggio/async-foreach",
         "@pierreminiggio/timeout": "github:pierreminiggio/timeout",
         "node": "^12.6.0"
     },
