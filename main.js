@@ -1,15 +1,16 @@
 import sleep from '@pierreminiggio/timeout'
 
 /**
- * @param {import("puppeteer").Page} page 
- * @param {string} text 
- * @param {number} timeBetweenChars 
+ * @param {import("puppeteer").Page} page
+ * @param {string} selector
+ * @param {string} text
+ * @param {number} timeBetweenChars
  * 
  * @returns {void}
  */
-export default async function type(page, text, timeBetweenChars = 0) {
+export default async function type(page, selector, text, timeBetweenChars = 0) {
     await asyncForEach(Array.from(text), async (char) => {
         await sleep(timeBetweenChars)
-        await page.type(legendInputSelector, char)
+        await page.type(selector, char)
     })
 }
