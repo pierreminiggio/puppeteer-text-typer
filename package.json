@@ -1,6 +1,6 @@
 {
     "name": "@pierreminiggio/puppeteer-text-typer",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Puppeteer Text Typer",
     "main": "main.js",
     "type": "module",
@@ -16,8 +16,7 @@
     "homepage": "https://github.com/pierreminiggio/puppeteer-text-typer#readme",
     "dependencies": {
         "@pierreminiggio/async-foreach": "github:pierreminiggio/async-foreach",
-        "@pierreminiggio/timeout": "github:pierreminiggio/timeout",
-        "node": "^12.6.0"
+        "@pierreminiggio/timeout": "github:pierreminiggio/timeout"
     },
     "devDependencies": {},
     "scripts": {
