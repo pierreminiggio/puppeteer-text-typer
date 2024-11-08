@@ -7,7 +7,7 @@ import sleep from '@pierreminiggio/timeout'
  * @param {string} text
  * @param {number} timeBetweenChars
  * 
- * @returns {void}
+ * @returns {Promise<void>}
  */
 export default async function type(page, selector, text, timeBetweenChars = 0) {
     await asyncForEach(Array.from(text), async (char) => {
